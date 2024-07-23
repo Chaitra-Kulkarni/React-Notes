@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 const App = () => {
-  return <h1 className="font-medium">Hello Tricon!</h1>
+  return (
+    <div className="w-4/5 mx-auto">
+      <Header />
+    </div>
+  );
 };
 
 export default App;
